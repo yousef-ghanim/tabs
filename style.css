@@ -1,0 +1,50 @@
+body {
+  display: grid;
+  place-items: center;
+  align-items: center;
+  padding-top: 10rem;
+}
+.container {
+  height: 25rem;
+  background-color: rgb(231, 231, 231);
+  border: 0.1rem solid rgb(235, 235, 235);
+  position: relative;
+  border-radius: 0.3rem;
+}
+/* .btns-container {
+  width: 100%;
+} */
+.btn {
+  padding: 0.8rem 3rem;
+  margin: 0;
+  border: none;
+  display: inline-block;
+  background-color: transparent;
+  /* background-color: yellow; */
+  font-size: 1rem;
+  outline: none;
+}
+.articles-container {
+  /* border: 0.1rem solid #000; */
+  top: 44px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+.article {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 1rem;
+  background-color: white;
+}
+
+.btn.active {
+  background-color: white;
+}
+.article.active {
+  display: block;
+}
